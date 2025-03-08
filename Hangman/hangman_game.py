@@ -27,7 +27,7 @@ while not is_guessed:
         life -= 1
         if life > 0:
             print(f"You guessed {guessed_letter}, that's not in the word. You lose a life.")
-            print(art.stages[life-1])
+            print(art.stages[life])
             print(f"************************{life}/6 LIVES LEFT ************************")
         else:
             is_guessed = True
