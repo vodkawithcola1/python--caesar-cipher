@@ -11,8 +11,6 @@ for rw_len in random_word:
     word_new_list.append("_")
 
 print(art.logo)
-print(random_word)
-
 life = 6
 
 while not is_guessed:
